@@ -21,30 +21,60 @@
 
 .mainbody1 {
     display: flex;
-    justify-content: space-around;
-    background-color: #1f2937;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #1f2937;
+    padding: 40px;
 }
-    h1 {
+          
+          
+    .mainbody1 .content {
+        flex: 1;
+        margin-right: 40px;
+        }
+          
+    .mainbody1 h1 {
         color: #f9faf8;
         font-size: 48px;
-        margin-top: 40px;
-    }
-
-    p {
+        margin-bottom: 5px;
+        padding: 40px;
+        padding-bottom: 15px;
+        max-width: 800px;
+        }
+          
+    .mainbody1 p {
         color: #e5e7eb;
         font-size: 30px;
-        margin-top: 15px;
-    }
-
-    .button1 {
+        margin-bottom: 5px;
+        padding: 40px;
+        max-width: 800px;
+        }
+          
+    .mainbody1 .image-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        }
+          
+    .mainbody1 .image {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 400px;
+        height: auto;
+        max-width: 100%;
+        }
+          
+        .button1 {
         font-size: 20px;
-        margin: 35px;
+        font-weight: bold;
+        color: #e5e7eb;
+        margin-left: 35px;
         padding: 5px;
         width: 170px;
         height: 40px;
         background-color: #3882f6;
         }
-
+          
 .mainbody2 {
     margin: 0;
     padding: 0;
@@ -62,47 +92,64 @@
     .boximage {
         display: flex;
         justify-content: space-evenly;
+        
     }
 
+    .boximage .boximage1 {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .boximage .boximage2 {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+        max-width: 100%;
+        max-height: 100%;
+        }
+    .boximage .boximage3 {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+        max-width: 100%;
+        max-height: 100%;
+        }
+    .boximage .boximage4 {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+        max-width: 100%;
+        max-height: 100%;
+        }
+   
         .boximage1 { 
             flex: 1;
-            color: #fff;
-            border-radius: 10px;
-            margin: 20px 10px;
-            box-shadow: 0 3px 5px rgba((0, 0, 0, 0,6), green, blue, alpha);
-            padding: 15px 20px;
+            color: #fff;   
         }
         .boximage2 { 
             flex: 1;
-            color: #fff;
-            border-radius: 10px;
-            margin: 20px 10px;
-            box-shadow: 0 3px 5px rgba((0, 0, 0, 0,6), green, blue, alpha);
-            padding: 15px 20px;
+            color: #fff;  
         }
         .boximage3{ 
             flex: 1;
-            color: #fff;
-            border-color: #3882f6;
-            border-radius: 10px;
-            margin: 20px 10px;
-            box-shadow: 0 3px 5px rgba((0, 0, 0, 0,6), green, blue, alpha);
-            padding: 15px 20px;
+            color: #fff;    
         }
         .boximage4{
             flex: 1; 
             color: #fff;
-            border-radius: 10px;
-            border-color: #3882f6;
-            margin: 20px 10px;
-            box-shadow: 0 3px 5px rgba((0, 0, 0, 0,6), green, blue, alpha);
-            padding: 15px 20px;
+            border-radius: 10px;   
         }
 
         .imginfo {
             font-size: 24px;
             display: flex;
-            justify-content: center;
+            justify-content:center;
             color: #1f2937;
         }
 .inspquote {
@@ -116,6 +163,7 @@
 
     .quote {
         color: #1f2937;
+        font-size: 36px;
         width: 600px;
         padding: 50px;
         margin: 50px;
@@ -152,6 +200,4 @@
         width: 170px;
         height: 40px;
         font-size: 20px;
-
-  
     }
